@@ -1,0 +1,15 @@
+# ignore files don't have a extension
+*
+!*/
+!*.*
+
+# ignore mypy cache
+.mypy_cache
+
+# ignore python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
